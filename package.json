@@ -1,15 +1,19 @@
 {
   "name": "twitter-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Nodejs Twitter bot",
+  "main": "app.js",
   "scripts": {
     "test": "npm test"
   },
   "repository": {
     "type": "git",
-    "url": "twitter-bot"
+    "url": "git@github.com:50Hannah000/Twitterbot.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.8.0",
+    "twitter": "^1.7.1"
+  }
 }
